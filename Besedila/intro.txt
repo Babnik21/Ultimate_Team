@@ -1,0 +1,7 @@
+Pozdravljeni v programu Ultimate Team!
+Program temelji na že obstoječem elementu igre FIFA 19. V njej lahko najdemo razdelek,
+kjer so nogometaši ocenjeni glede na njihovo sposobnost v različnih aspektih nogometa.
+Vse ocene nogometašev so prevzete po igri FIFA 19, njihovi podatki pa so veljavni
+za sezono 2018/19.
+
+

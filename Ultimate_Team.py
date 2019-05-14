@@ -30,7 +30,6 @@ with open("Premier_Liga.txt", 'r', encoding = 'utf-8') as data:
         seznamcek = vrstica.strip().split(', ')
         seznam_igralcev.append(Kartica(seznamcek))
 
-print(seznam_igralcev[0])
 
 
 
