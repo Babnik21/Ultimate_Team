@@ -16,9 +16,9 @@ class Kartica:     #kartica bo predstavljala posameznega igralca
         self.attributes = seznam
 
     def __str__(self):
-        return '{ime} {priimek}, {position} from {drzava}, currently plays for {klub}'.format(
+        return '{ime} {priimek}, {position} from {drzava}, currently plays for {klub}, rating: {rating}'.format(
             ime = self.firstname, priimek = self.lastname, position = self.position, 
-            drzava = self.nationality, klub = self.club
+            drzava = self.nationality, klub = self.club, rating = self.overall
         )
 
 
@@ -27,10 +27,10 @@ with open("Premier_Liga.txt", 'r', encoding = 'utf-8') as data:
     for vrstica in data:
         if vrstica[0] == '*':
             continue
-        seznamcek = vrstica.strip().split(',')
+        seznamcek = vrstica.strip().split(', ')
         seznam_igralcev.append(Kartica(seznamcek))
-        print(Kartica(seznamcek))
-        
+
+print(seznam_igralcev[0])
 
 
 
