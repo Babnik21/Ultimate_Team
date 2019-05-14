@@ -8,7 +8,7 @@ def main_menu():
     print('2) Vojna')
     print('3) Sestavi svojo ekipo')
     print('4) Izhod')
-    izbira = input('>')
+    izbira = input('> ')
     if izbira == '4':
         print('Nasvidenje!')
         time.sleep(1)

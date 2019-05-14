@@ -3,3 +3,5 @@ Program temelji na že obstoječem elementu igre FIFA 19. V njej lahko najdemo r
 kjer so nogometaši ocenjeni glede na njihovo sposobnost v različnih aspektih nogometa.
 Vse ocene nogometašev so prevzete po igri FIFA 19, njihovi podatki pa so veljavni
 za sezono 2018/19.
+Na voljo je angleška Premier Liga, s kasnejšimi verzijami pa bodo mogoče na voljo 
+tudi druge lige.
