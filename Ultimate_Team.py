@@ -6,19 +6,22 @@ from random import randint
 def main_menu():
     print('Kaj želite narediti? Izberite številko pred vašo izbiro:')
     print('1) Išči igralca')
-    print('2) Vojna')
-    print('3) Sestavi svojo ekipo')
-    print('4) Izhod')
+    print('2) Navodila')
+    print('3) Vojna')
+    print('4) Sestavi svojo ekipo')
+    print('5) Izhod')
     izbira = input('> ')
-    if izbira == '4':
+    if izbira == '5':
         print('Nasvidenje!')
         time.sleep(1)
         sys.exit(0)
-    elif izbira == '3':
+    elif izbira == '4':
         pass            #tu bomo dodali funkcijo za igro 'sestavi ekipo'
-    elif izbira == '2':
+    elif izbira == '3':
         pass
         Top_Trumps()    #Nedokončana
+    elif izbira == '2':
+        pass            #Dodamo 2 txt fila za navodila za top trumps in sestavi ekipo
     elif izbira == '1':
         pass            #tu dodamo search engine za iskanje igralcev
     else:
