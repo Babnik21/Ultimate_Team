@@ -20,3 +20,9 @@ class Kartica:     #kartica bo predstavljala posameznega igralca
             ime = self.firstname, priimek = self.lastname, position = self.position, 
             drzava = self.nationality, klub = self.club, rating = self.overall
         )
+
+    def __repr__(self):
+        if self.firstname == '*':
+            return self.lastname
+        else:
+            return '{0} {1}'.format(self.firstname, self.lastname)
