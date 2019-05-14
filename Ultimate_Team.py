@@ -27,7 +27,7 @@ def intro():
         tekst = intro.read()
         print(tekst)
 
-with open("Premier_Liga.txt", 'r', encoding = 'utf-8') as data:
+with open("Lige\Premier_Liga.txt", 'r', encoding = 'utf-8') as data:
     seznam_igralcev = []
     for vrstica in data:
         if vrstica[0] == '*':
