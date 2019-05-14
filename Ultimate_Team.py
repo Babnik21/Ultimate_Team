@@ -21,6 +21,9 @@ class Kartica:     #kartica bo predstavljala posameznega igralca
             drzava = self.nationality, klub = self.club, rating = self.overall
         )
 
+with open('Besedila\intro.txt', 'r', encoding = 'utf-8') as intro:
+    tekst = intro.read()
+    print(tekst)
 
 with open("Premier_Liga.txt", 'r', encoding = 'utf-8') as data:
     seznam_igralcev = []
