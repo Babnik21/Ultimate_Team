@@ -71,7 +71,7 @@ Lucas, *, RM, Brazil, Tottenham, 82, 92, 74, 75, 85, 42, 59
 Wanyama, Victor, CDM, Kenya, Tottenham, 80, 58, 65, 69, 73, 80, 88
 Lamela, Erik, RM, Argentina, Tottenham, 80, 75, 77, 80, 82, 47, 68
 Dier, Eric, CDM, England, Tottenham, 80, 65, 63, 72, 65, 82, 86
-Nkoudou, , Georges-Kevin, LM, France, Tottenham, 76, 88, 68, 70, 78, 34, 59
+Nkoudou, Georges-Kevin, LM, France, Tottenham, 76, 88, 68, 70, 78, 34, 59
 Alderweireld, Toby, CB, Belgium, Tottenham, 87, 65, 57, 74, 69, 89, 79
 Vertongen, Jan, CB, Belgium, Tottenham, 87, 63, 63, 73, 72, 88, 79
 Sanchez, Davinson, CB, Colombia, Tottenham, 84, 76, 45, 55, 67, 84, 82

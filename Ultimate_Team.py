@@ -1,7 +1,4 @@
-
-## Zaenkrat prazna datoteka, tu bo naš program
-
-class Kartica:
+class Kartica:     #kartica bo predstavljala posameznega igralca
     def __init__(self, sez):
         self.lastname = sez[0]
         self.firstname = sez[1]
@@ -17,5 +14,27 @@ class Kartica:
             el += 5
             seznam.append(el)
         self.attributes = seznam
+
+    def __str__(self):
+        return '{ime} {priimek}, {position} from {drzava}, currently plays for {klub}'.format(
+            ime = self.firstname, priimek = self.lastname, position = self.position, 
+            drzava = self.nationality, klub = self.club
+        )
+
+
+with open("Premier_Liga.txt", 'r', encoding = 'utf-8') as data:
+    seznam_igralcev = []
+    for vrstica in data:
+        if vrstica[0] == '*':
+            continue
+        seznamcek = vrstica.strip().split(',')
+        seznam_igralcev.append(Kartica(seznamcek))
+        print(Kartica(seznamcek))
+        
+
+
+
+
+
 
 
