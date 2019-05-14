@@ -60,16 +60,16 @@ def TT_razdeli():
     while dolzina == 0:
         dolzina = TT_dolzina()
     for _ in range(dolzina):
-        a = randint(0, len(seznam_igralcev))
+        a = randint(0, len(seznam_igralcev) - 1)
         players_zacasno.append(seznam_igralcev[a])
     return players_zacasno
 
 def Top_Trumps():
     igralci = TT_razdeli()
-    user_players = igralci[:len(igralci)//2]
-    ai_players = igralci[len(igralci)//2:]
+    user_players = igralci[:(len(igralci)//2)]
+    ai_players = igralci[(len(igralci)//2):]
     while len(user_players) != 0 and len(ai_players) != 0:
-        '''ponavljaj tekmo'''
+        pass
 
 def program():
     intro()
