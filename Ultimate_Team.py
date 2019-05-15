@@ -1,7 +1,7 @@
 from model import Kartica
 import time
 import sys
-from random import randint
+from random import randint, choice
 
 def main_menu():
     print('Kaj želite narediti? Izberite številko pred vašo izbiro:')
@@ -71,6 +71,46 @@ def TT_razdeli():
         a = randint(0, len(seznam_igralcev) - 1)
         players_zacasno.append(seznam_igralcev[a])
     return players_zacasno
+
+def get_hand(player_list):
+    return choice(player_list)
+
+def vprasaj_po_kljucu(igralec):         #vrne indeks lastnosti igralca
+    if igralec.position == 'GK':
+        print('Izberite kategorijo:')
+        print('1)')
+        print('2)')
+        print('3)')
+        print('4)')
+        print('5)')
+        print('6)')
+        izbira = input('> ')
+        if izbira not in '123456':
+            print('Neveljavna izbira!')
+            return vprasaj_po_kljucu(igralec)
+        else:
+            return int(izbira) - 1
+    else:
+        print('Izberite kategorijo:')
+        print('1)')
+        print('2)')
+        print('3)')
+        print('4)')
+        print('5)')
+        print('6)')
+        izbira = input('> ')
+        if izbira not in '123456':
+            print('Neveljavna izbira!')
+            return vprasaj_po_kljucu(igralec)
+        else:
+            return int(izbira) - 1
+
+
+def get_key(user, ai, na_potezi):       #vpraša userja po ključu ali vrne naključnega
+    if na_potezi == True:
+        return vprasaj_po_kljucu(user)
+    else:
+        return randint(0, 5)
 
 def Top_Trumps():
     igralci = TT_razdeli()
