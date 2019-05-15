@@ -46,6 +46,7 @@ def TT_dolzina():
     print('1) Kratka (5 kartic na igralca)')
     print('2) Srednje dolga (10 kartic na igralca)')
     print('3) Dolga (20 kartic na igralca)')
+    print('4) Nazaj')
     izbira = input('> ')
     if izbira == '1':
         return 10
@@ -53,6 +54,8 @@ def TT_dolzina():
         return 20
     elif izbira == '3':
         return 40
+    elif izbira == '4':
+        return -1
     else:
         print('Vnesli ste neveljaven znak. Poskusite ponovno.')
         return 0
@@ -62,6 +65,8 @@ def TT_razdeli():
     players_zacasno = []
     while dolzina == 0:
         dolzina = TT_dolzina()
+    if dolzina == -1:
+        return [1]
     for _ in range(dolzina):
         a = randint(0, len(seznam_igralcev) - 1)
         players_zacasno.append(seznam_igralcev[a])
@@ -76,7 +81,7 @@ def Top_Trumps():
 
 def program():
     intro()
-    time.sleep(7)
+    time.sleep(2)           #spremeni na 7
     while True:
         main_menu()
 
