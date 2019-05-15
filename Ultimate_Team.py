@@ -78,12 +78,12 @@ def get_hand(player_list):
 def vprasaj_po_kljucu(igralec):         #vrne indeks lastnosti igralca
     if igralec.position == 'GK':
         print('Izberite kategorijo:')
-        print('1)')
-        print('2)')
-        print('3)')
-        print('4)')
-        print('5)')
-        print('6)')
+        print('1) Diving: {0}'.format(igralec.attributes[0]))
+        print('2) Handling: {0}'.format(igralec.attributes[1]))
+        print('3) Kicking: {0}'.format(igralec.attributes[2]))
+        print('4) Reflexes: {0}'.format(igralec.attributes[3]))
+        print('5) Speed: {0}'.format(igralec.attributes[4]))
+        print('6) Positioning: {0}'.format(igralec.attributes[5]))
         izbira = input('> ')
         if izbira not in '123456':
             print('Neveljavna izbira!')
@@ -91,13 +91,13 @@ def vprasaj_po_kljucu(igralec):         #vrne indeks lastnosti igralca
         else:
             return int(izbira) - 1
     else:
-        print('Izberite kategorijo:')
-        print('1)')
-        print('2)')
-        print('3)')
-        print('4)')
-        print('5)')
-        print('6)')
+        print('Izberite kategorijo:'
+        print('1) Pace: {0}'.format(igralec.attributes[0]))
+        print('2) Shooting: {0}'.format(igralec.attributes[1]))
+        print('3) Passing: {0}'.format(igralec.attributes[2]))
+        print('4) Dribbling: {0}'.format(igralec.attributes[3]))
+        print('5) Defending: {0}'.format(igralec.attributes[4]))
+        print('6) Physical: {0}'.format(igralec.attributes[5]))
         izbira = input('> ')
         if izbira not in '123456':
             print('Neveljavna izbira!')
@@ -105,8 +105,7 @@ def vprasaj_po_kljucu(igralec):         #vrne indeks lastnosti igralca
         else:
             return int(izbira) - 1
 
-
-def get_key(user, ai, na_potezi):       #vpraša userja po ključu ali vrne naključnega
+def get_key(user, na_potezi):       #vpraša userja po ključu ali vrne naključnega
     if na_potezi == True:
         return vprasaj_po_kljucu(user)
     else:
@@ -116,6 +115,7 @@ def Top_Trumps():
     igralci = TT_razdeli()
     user_players = igralci[:(len(igralci)//2)]
     ai_players = igralci[(len(igralci)//2):]
+    na_potezi = True
     while len(user_players) != 0 and len(ai_players) != 0:
         pass
 
