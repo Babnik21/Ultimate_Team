@@ -85,13 +85,13 @@ def vprasaj_po_kljucu(igralec):         #vrne indeks lastnosti igralca
         print('5) Speed: {0}'.format(igralec.attributes[4]))
         print('6) Positioning: {0}'.format(igralec.attributes[5]))
         izbira = input('> ')
-        if izbira not in '123456':
+        if izbira not in '123456' or izbira == '':
             print('Neveljavna izbira!')
             return vprasaj_po_kljucu(igralec)
         else:
             return int(izbira) - 1
     else:
-        print('Izberite kategorijo:'
+        print('Izberite kategorijo:')
         print('1) Pace: {0}'.format(igralec.attributes[0]))
         print('2) Shooting: {0}'.format(igralec.attributes[1]))
         print('3) Passing: {0}'.format(igralec.attributes[2]))
@@ -111,13 +111,28 @@ def get_key(user, na_potezi):       #vpraša userja po ključu ali vrne naključ
     else:
         return randint(0, 5)
 
+def boljši_v_kategoriji(prvi, drugi, kljuc):
+    if prvi.attributes[kljuc] > drugi.attributes[kljuc]:
+        return True
+    else:
+        return False
+
 def Top_Trumps():
     igralci = TT_razdeli()
     user_players = igralci[:(len(igralci)//2)]
     ai_players = igralci[(len(igralci)//2):]
     na_potezi = True
     while len(user_players) != 0 and len(ai_players) != 0:
-        pass
+        user = get_hand(user_players)
+        ai = get_hand(ai_players)
+        kljuc = get_key(user, na_potezi)
+        if boljši_v_kategoriji(user, ai, kljuc):
+            '''vzamemo igralca iz seznama ai in ga damo v seznam user'''
+            na_potezi = True
+        elif boljši_v_kategoriji(ai, user, kljuc):
+            '''vzamemo igralca iz seznama userja in ga damo v seznam ai'''
+            na_potezi = False
+
 
 def program():
     intro()
