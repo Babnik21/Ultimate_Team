@@ -16,10 +16,16 @@ class Kartica:     #kartica bo predstavljala posameznega igralca
         self.attributes = seznam
 
     def __str__(self):
-        return '{ime} {priimek}, {position} from {drzava}, plays for {klub}. Ocena: {rating}'.format(
-            ime = self.firstname, priimek = self.lastname, position = self.position, 
-            drzava = self.nationality, klub = self.club, rating = self.overall
-        )
+        if self.firstname != '*':
+            return '{ime} {priimek}, {position} from {drzava}, plays for {klub}. Ocena: {rating}'.format(
+                ime = self.firstname, priimek = self.lastname, position = self.position, 
+                drzava = self.nationality, klub = self.club, rating = self.overall
+            )
+        else:
+            return '{priimek}, {position} from {drzava}, plays for {klub}. Ocena: {rating}'.format(
+                priimek = self.lastname, position = self.position, klub = self.club,
+                drzava = self.nationality, rating = self.overall
+            )
 
     def __repr__(self):
         if self.firstname == '*':
