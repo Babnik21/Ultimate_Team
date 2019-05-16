@@ -166,6 +166,8 @@ def Top_Trumps():                       #Igra top trumps
             user_players.remove(user)
             ai_players.append(user)
             na_potezi = False
+        else:
+            print('Izenačeno! Oba obdržita svojega igralca.')
     zaključek_tt(user_players)
 
 def program():
