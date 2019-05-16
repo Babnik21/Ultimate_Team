@@ -99,7 +99,7 @@ Koscielny, Laurent, CB, France, Arsenal, 82, 65, 41, 62, 65, 82, 75
 Lichtsteiner, Stephan, RB, Switzerland, Arsenal, 80, 71, 58, 72, 76, 79, 74
 Kolašinac, Sead, LB, Bosnia & Herzegovina, Arsenal, 80, 72, 62, 65, 70, 77, 87
 Monreal, Nacho, LB, Spain, Arsenal, 80, 69, 58, 71, 75, 80, 70
-Bellerin, Hector, RB, Spain, Arsenal, 93, 51, 68, 77, 75, 66
+Bellerin, Hector, RB, Spain, Arsenal, 80, 93, 51, 68, 77, 75, 66
 Leno, Bernd, GK, Germany, Arsenal, 84, 84, 82, 73, 82, 46, 85
 Čech, Petr, GK, Czech Republic, Arsenal, 82, 78, 82, 70, 79, 35, 83
 *Manchester United
