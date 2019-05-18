@@ -170,6 +170,45 @@ def Top_Trumps():                       #Igra top trumps
             print('Izenačeno! Oba obdržita svojega igralca.')
     zaključek_tt(user_players)
 
+
+def ustreza_poizvedbi(keyword, item):
+    if len(keyword) == 0:
+        return True
+    elif keyword[-1] == '*':
+        if len(keyword[:-1]) > len(item):
+            return False
+        else:
+            for prva, druga in zip(keyword[:-1], item):
+                if prva != druga:
+                    return False
+            return True
+    else:
+        return keyword == item
+
+def isci_po_seznamu(poskus, kljuc, seznam):
+    resitev = []
+    for el in seznam:
+        if ustreza_poizvedbi(poskus, el[kljuc]):
+            resitev.append(el)
+    return resitev
+
+def pridobi_kljuc_za_iskanje():
+    print('Izberite, po katerem podatku želite poiskati igralca:')
+    print('1) Priimek (Ime)')
+    print('2) Pozicija')
+    print('3) Državljanstvo')
+    print('4) Klub')
+    izbira = input('> ')
+    if izbira == None or izbira not in '1234':
+        print('Neveljavna izbira!')
+        return pridobi_kljuc_za_iskanje()
+    else:
+        if izbira == 1:
+            return 1
+        else:
+            return int(izbira) + 1
+
+
 def program():
     intro()
     time.sleep(3)           #spremeni na 7
