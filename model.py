@@ -32,3 +32,20 @@ class Kartica:     #kartica bo predstavljala posameznega igralca
             return self.lastname
         else:
             return '{0} {1}'.format(self.firstname, self.lastname)
+
+class Postava:
+    def __init__(self, formacija):
+        seznam = []
+        for crka in formacija:
+            seznam.append([0]*int(crka))
+        self.golman = seznam[0]
+        self.branilci = seznam[1]
+        self.vezisti = seznam[2]
+        self.napadalci = seznam[-1]
+
+    def __str__(self):
+        print(x for x in self.golman)
+        print(x for x in self.branilci)
+        print(x for x in self.vezisti)
+        print(x for x in self.napadalci)
+         
