@@ -5,8 +5,8 @@ from random import randint, choice
 
 def main_menu():
     print('Kaj želite narediti? Izberite številko pred vašo izbiro:')
-    print('1) Išči igralca')
-    print('2) Navodila')
+    print('1) Navodila')
+    print('2) Išči igralca')
     print('3) Vojna')
     print('4) Sestavi svojo ekipo')
     print('5) Izhod')
@@ -20,9 +20,9 @@ def main_menu():
     elif izbira == '3':
         Top_Trumps()    #Verzija 1.0
     elif izbira == '2':
-        pass            #Dodamo 2 txt fila za navodila za top trumps in sestavi ekipo
+        browser()       #Verzija 1.0       
     elif izbira == '1':
-        browser()       #verzija 1.0
+        pass            #Dodamo 2 txt fila za navodila za top trumps in sestavi ekipo
     else:
         print('Vpisali ste neveljaven znak. Poskusite ponovno.')
         time.sleep(1)
@@ -267,13 +267,14 @@ def browser():                          #Brskalnik za iskanje igralcev iz seznam
         for el in seznam:
             print(el)
             time.sleep(0.5)
+        if len(seznam) == 0:
+            print('Vašemu iskanju ne ustreza noben igralec v bazi!')
         nadaljuj = nadaljuj_iskanje()
         if not nadaljuj:
             seznam = seznam_igralcev
             if izhod_iz_brskalnika():
+                time.sleep(0.5)
                 break
-
-
 
 
 def program():
