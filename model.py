@@ -33,6 +33,9 @@ class Kartica:     #kartica bo predstavljala posameznega igralca
         else:
             return '{0} {1}'.format(self.firstname, self.lastname)
 
+    def seznam_podatkov(self):
+        return [self.lastname, self.position, self.nationality, self.club]
+
 class Postava:
     def __init__(self, formacija):
         seznam = []

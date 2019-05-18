@@ -22,7 +22,7 @@ def main_menu():
     elif izbira == '2':
         pass            #Dodamo 2 txt fila za navodila za top trumps in sestavi ekipo
     elif izbira == '1':
-        pass            #tu dodamo search engine za iskanje igralcev
+        browser()       #verzija 1.0
     else:
         print('Vpisali ste neveljaven znak. Poskusite ponovno.')
         time.sleep(1)
@@ -188,7 +188,7 @@ def ustreza_poizvedbi(keyword, item):   #preveri, ali igralec ustreza poizvedbi
 def isci_po_seznamu(poskus, kljuc, seznam):     #Funkcija vrne seznam igralcev, ki ustrezajo poizvedbi
     resitev = []
     for el in seznam:
-        if ustreza_poizvedbi(poskus, el[kljuc]):
+        if ustreza_poizvedbi(poskus, el.seznam_podatkov()[kljuc]):
             resitev.append(el)
     return resitev
 
@@ -207,12 +207,10 @@ def pridobi_kljuc_za_iskanje():         #Vrne ključ, po katerem bomo iskali igr
         time.sleep(0.5)
         return pridobi_kljuc_za_iskanje()
     else:
-        if izbira == '1':
-            return 1
-        elif izbira == '5':
-             return 100
+        if izbira == '5':
+            return 100
         else:
-            return int(izbira) + 1
+            return int(izbira) - 1
 
 def pridobi_keyword():                  #Funkcija vrne keyword po katerem iščemo
     print('Vnesite podatek o iskanem igralcu:')
@@ -240,6 +238,22 @@ def nadaljuj_iskanje():                 #Vrne true če uporabnik želi iskati le
         time.sleep(0.5)
         return nadaljuj_iskanje()
 
+def izhod_iz_brskalnika():
+    print('Želite nadaljevati z iskanjem ali se želite vrniti v začetni meni?')
+    time.sleep(0.5)
+    print('1) Nadaljuj z iskanjem')
+    print('2) Vrni se v začetni meni')
+    odgovor = input('> ')
+    if odgovor == '1':
+        return False
+    elif odgovor == '2':
+        return True
+    else:
+        print('Neveljaven odgovor.')
+        time.sleep(0.5)
+        return izhod_iz_brskalnika()
+
+
 def browser():                          #Brskalnik za iskanje igralcev iz seznama
     nadaljuj = False
     while True:
@@ -249,11 +263,16 @@ def browser():                          #Brskalnik za iskanje igralcev iz seznam
         if key > 50:
             break
         keyword = pridobi_keyword()
-        najdeni = isci_po_seznamu(keyword, key, seznam)
-        for el in najdeni:
+        seznam = isci_po_seznamu(keyword, key, seznam)
+        for el in seznam:
             print(el)
             time.sleep(0.5)
         nadaljuj = nadaljuj_iskanje()
+        if not nadaljuj:
+            seznam = seznam_igralcev
+            if izhod_iz_brskalnika():
+                break
+
 
 
 

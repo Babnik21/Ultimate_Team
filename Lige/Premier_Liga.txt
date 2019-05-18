@@ -7,7 +7,7 @@ Silva, Bernardo, RW, Portugal, Manchester City, 84, 78, 72, 83, 89, 46, 88
 Jesus, Gabriel, ST, Brazil, Manchester City, 83, 86, 80, 72, 86, 39, 73
 De Bruyne, Kevin, CAM, Belgium, Manchester City, 91, 77, 86, 92, 87, 60, 78
 Silva, David, CAM, Spain, Manchester City, 89, 66, 74, 87, 91, 50, 60
-Fernandinho, *Fernando Luis Rosa, CDM, Brazil, Manchester City, 87, 67, 74, 80, 79, 85, 80
+Fernandinho, *, CDM, Brazil, Manchester City, 87, 67, 74, 80, 79, 85, 80
 Gundongan, Ilkay, CM, Germany, Manchester City, 84, 68, 74, 83, 84, 69, 70
 Otamendi, Nicolas, CB, Argentina, Manchester City, 86, 60, 57, 63, 61, 86, 80
 Kompany, Vincent, CB, Belgium, Manchester City, 85, 56, 54, 65, 66, 85, 81
