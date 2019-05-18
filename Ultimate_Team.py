@@ -86,7 +86,7 @@ def vprasaj_po_kljucu(igralec):         #Vrne indeks lastnosti igralca
         print('5) Speed: {0}'.format(igralec.attributes[4]))
         print('6) Positioning: {0}'.format(igralec.attributes[5]))
         izbira = input('> ')
-        if izbira not in '123456' or izbira == '':
+        if izbira not in '123456' or izbira == None or len(izbira) != 1:
             print('Neveljavna izbira!')
             return vprasaj_po_kljucu(igralec)
         else:
@@ -100,7 +100,7 @@ def vprasaj_po_kljucu(igralec):         #Vrne indeks lastnosti igralca
         print('5) Defending: {0}'.format(igralec.attributes[4]))
         print('6) Physical: {0}'.format(igralec.attributes[5]))
         izbira = input('> ')
-        if izbira not in '123456':
+        if izbira not in '123456' or izbira == None or len(izbira) != 1:
             print('Neveljavna izbira!')
             return vprasaj_po_kljucu(igralec)
         else:
