@@ -171,7 +171,7 @@ def Top_Trumps():                       #Igra top trumps
     zaključek_tt(user_players)
 
 
-def ustreza_poizvedbi(keyword, item):
+def ustreza_poizvedbi(keyword, item):   #preveri, ali igralec ustreza poizvedbi
     if len(keyword) == 0:
         return True
     elif keyword[-1] == '*':
@@ -185,28 +185,76 @@ def ustreza_poizvedbi(keyword, item):
     else:
         return keyword == item
 
-def isci_po_seznamu(poskus, kljuc, seznam):
+def isci_po_seznamu(poskus, kljuc, seznam):     #Funkcija vrne seznam igralcev, ki ustrezajo poizvedbi
     resitev = []
     for el in seznam:
         if ustreza_poizvedbi(poskus, el[kljuc]):
             resitev.append(el)
     return resitev
 
-def pridobi_kljuc_za_iskanje():
+def pridobi_kljuc_za_iskanje():         #Vrne ključ, po katerem bomo iskali igralce
     print('Izberite, po katerem podatku želite poiskati igralca:')
+    time.sleep(0.5)
     print('1) Priimek (Ime)')
     print('2) Pozicija')
     print('3) Državljanstvo')
     print('4) Klub')
+    print('5) Vrni se v začetni meni')
     izbira = input('> ')
-    if izbira == None or izbira not in '1234':
+    if izbira == None or izbira not in '12345':
+        time.sleep(0.5)
         print('Neveljavna izbira!')
+        time.sleep(0.5)
         return pridobi_kljuc_za_iskanje()
     else:
-        if izbira == 1:
+        if izbira == '1':
             return 1
+        elif izbira == '5':
+             return 100
         else:
             return int(izbira) + 1
+
+def pridobi_keyword():                  #Funkcija vrne keyword po katerem iščemo
+    print('Vnesite podatek o iskanem igralcu:')
+    podatek = input('> ')
+    if podatek == None:
+        time.sleep(0.5)
+        print('Neveljaven podatek!')
+        time.sleep(0.5)
+        return pridobi_keyword()
+    return podatek
+
+def nadaljuj_iskanje():                 #Vrne true če uporabnik želi iskati le med pravkar najdenimi igralci
+    print('Ali želite nadaljevati z iskanjem po izpisanem seznamu igralcev?')
+    time.sleep(0.5)
+    print('1) Da')
+    print('2) Ne')
+    odgovor = input('> ')
+    if odgovor == '1':
+        return True
+    elif odgovor == '2':
+        return False
+    else:
+        time.sleep(0.5)
+        print('Neveljaven odgovor.')
+        time.sleep(0.5)
+        return nadaljuj_iskanje()
+
+def browser():                          #Brskalnik za iskanje igralcev iz seznama
+    nadaljuj = False
+    while True:
+        if not nadaljuj:
+            seznam = seznam_igralcev
+        key = pridobi_kljuc_za_iskanje()
+        if key > 50:
+            break
+        keyword = pridobi_keyword()
+        najdeni = isci_po_seznamu(keyword, key, seznam)
+        for el in najdeni:
+            print(el)
+            time.sleep(0.5)
+        nadaljuj = nadaljuj_iskanje()
+
 
 
 def program():
