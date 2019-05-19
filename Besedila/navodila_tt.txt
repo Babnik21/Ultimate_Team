@@ -1,0 +1,22 @@
+Top trumps je preprosta igra s posebnimi kartami za 2 igralca. V naši verziji so
+tema kart nogometaši. Povzeti so po računalniški igri FIFA 19, natančneje 
+po Ultimate Team karticah (od tod tudi ime igre). Vsaka kartica predstavlja
+svojega nogometaša. Vsebuje nekaj njegovih podatkov (npr. ime, klub, državljanstvo...),
+splošno oceno od 1 do 99 ter ter nekaj ocen različnih aspektov njihove igre (npr. 
+podajanje, streljane, hitrost). Ob pričetku igre se med oba igralca razdeli
+enako število naključnih kart. Vsak igralec iz svojega kupa izvleče karto.
+Igralec na potezi nato izbere kategorijo. Kategorijo izberete tako, da vnesete 
+njeno zaporedno številko. Priporočamo, da izbirate kategorijo,
+v kateri je igralec čim boljši, saj imate tako večje možnosti za zmago. 
+Vaš in nasprotnikov igralec se nato v tej kategoriji primerjata, zmagovalec
+pa na koncu pobere obe karti in jih doda v svoj kupček kart. Igra se konča, ko 
+eden od igralcev pobere vse nasprotnikove karte in tako postane zmagovalec.
+
+Vratarjeve kartice vsebujejo druge atribute, saj streljanja na gol v svoji igri 
+ne potrebujejo, so pa te vrednosti nadomeščene z ocenami drugih področij (npr.
+refleksi, spretnost z rokami, itd.). V primeru spopada med vratarjem in zunanjim 
+igralcem, se primerjajo vrednosti, ki so na kartici iz FIFA Ultimate Team na enaki 
+lokaciji. Če vas zanima katere vrednosti se primerjajo, si lahko pogledate nekaj 
+primerov kartic v mapi Slike.
+
+Za vrnitev v začetni meni, pritisnite 'Enter'.

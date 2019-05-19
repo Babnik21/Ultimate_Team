@@ -277,9 +277,20 @@ def browser():                          #Brskalnik za iskanje igralcev iz seznam
                 break
 
 
+def navodila_top_trumps():              #izpiše navodila za igranje top trumps
+    with open('Besedila\navodila_tt.txt', 'r', encoding = 'utf-8') as navodila:
+        tekst = navodila.read()
+        print(tekst)
+        time.sleep(5)
+        print('Za nadaljevanje, pritisnite "Enter"')
+        i = input('> ')
+
+def navodila_za_iskanje():              #izpiše navodila za iskanje igralcev
+    pass
+
 def program():
     intro()
-    time.sleep(3)           #spremeni na 7
+    time.sleep(7)           #spremeni na 7
     while True:
         main_menu()
 
