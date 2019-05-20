@@ -11,6 +11,7 @@ def main_menu():
     print('4) Sestavi svojo ekipo')
     print('5) Izhod')
     izbira = input('> ')
+    time.sleep(0.5)
     if izbira == '5':
         print('Nasvidenje!')
         time.sleep(1)
@@ -22,7 +23,7 @@ def main_menu():
     elif izbira == '2':
         browser()       #Verzija 1.0       
     elif izbira == '1':
-        pass            #Dodamo 2 txt fila za navodila za top trumps in sestavi ekipo
+        navodila_meni() #Verzija 1.0
     else:
         print('Vpisali ste neveljaven znak. Poskusite ponovno.')
         time.sleep(1)
@@ -278,7 +279,7 @@ def browser():                          #Brskalnik za iskanje igralcev iz seznam
 
 
 def navodila_top_trumps():              #izpiše navodila za igranje top trumps
-    with open('Besedila\navodila_tt.txt', 'r', encoding = 'utf-8') as navodila:
+    with open('Besedila\instructions_tt.txt', 'r', encoding = 'utf-8') as navodila:
         tekst = navodila.read()
         print(tekst)
         time.sleep(5)
@@ -286,11 +287,33 @@ def navodila_top_trumps():              #izpiše navodila za igranje top trumps
         i = input('> ')
 
 def navodila_za_iskanje():              #izpiše navodila za iskanje igralcev
-    pass
+    with open('Besedila\instructions_iskanje.txt', 'r', encoding = 'utf-8') as navodila:
+        tekst = navodila.read()
+        print(tekst)
+        time.sleep(5)
+        print('Za nadaljevanje, pritisnite "Enter"')
+        i = input('> ')
+
+def navodila_meni():
+    while True:
+        print('Izberite navodila, ki jih želite prebrati:')
+        print('1) Navodila za Top Trumps')
+        print('2) Navodila za iskanje igralcev')
+        print('3) Vrnitev v začetni meni')
+        i = input('> ')
+        if i == '1':
+            navodila_top_trumps()
+        elif i == '2':
+            navodila_za_iskanje()
+        elif i == '3':
+            break
+        else:
+            print('Neveljavna izbira!')
+            return navodila_meni()
 
 def program():
     intro()
-    time.sleep(7)           #spremeni na 7
+    time.sleep(7)           
     while True:
         main_menu()
 

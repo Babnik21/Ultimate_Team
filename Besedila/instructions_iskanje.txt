@@ -1,0 +1,11 @@
+
+V bazi podatkov so nogometaši najboljših klubov angleške Premier lige.
+Po menijih navigirate tako, da vnesete številko pred izbiro, ki vam jo
+program ponuja, nato pa pritisnete 'Enter' (tako, kot povsod drugje v 
+programu). Brskalnik bo poiskal vse igralce, ki ustrezajo vaši poizvedbi.
+Če na konec vaše poizvedbe dodate zvezdico ('*'), bo brskalnik iskal vse
+tiste, ki se jim iskan podatek začne z vnesenim zaporedjem znakom, in ne le
+tistih, ki se z vašo poizvedbo popolnoma ujemajo. Vsi podatki so shranjeni 
+v angleškem jeziku, in poizvedbe v drugih jezikih ne bodo uspešne. Za pomoč
+sta priložena besedilni dokument, kjer lahko najdete angleške prevode vseh 
+držav, ter obrazložitve kratic vseh pozicij. Najdete jih lahko v mapi 'pomoč'.
