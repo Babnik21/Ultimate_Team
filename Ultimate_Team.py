@@ -3,7 +3,7 @@ import time
 import sys
 from random import randint, choice
 
-def main_menu():
+def main_menu():                        #mapa pomoč še manjka
     print('Kaj želite narediti? Izberite številko pred vašo izbiro:')
     print('1) Navodila')
     print('2) Išči igralca')
