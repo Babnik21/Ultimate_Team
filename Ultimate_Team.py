@@ -5,6 +5,7 @@ from random import randint, choice
 
 def main_menu():                        #mapa pomoč še manjka
     print('Kaj želite narediti? Izberite številko pred vašo izbiro:')
+    time.sleep(0.5)
     print('1) Navodila')
     print('2) Išči igralca')
     print('3) Vojna')
@@ -273,9 +274,6 @@ def browser():                          #Brskalnik za iskanje igralcev iz seznam
         nadaljuj = nadaljuj_iskanje()
         if not nadaljuj:
             seznam = seznam_igralcev
-            if izhod_iz_brskalnika():
-                time.sleep(0.5)
-                break
 
 
 def navodila_top_trumps():              #izpiše navodila za igranje top trumps

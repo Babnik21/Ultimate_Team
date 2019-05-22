@@ -27,13 +27,13 @@ Shaqiri, Xherdan, RW, Switzerland, Liverpool, 81, 80, 77, 80, 85, 46, 70
 Sturridge, Daniel, ST, England, Liverpool, 80, 75, 81, 68, 78, 23, 63
 Origi, Divock, ST, Belgium, Liverpool, 77, 78, 74, 67, 74, 27, 72
 Fabinho, *, CDM, Brazil, Liverpool, 85, 71, 69, 78, 77, 84, 84
-Keita, Naby, CM, Guinea ,Liverpool, 83, 68, 73, 78, 87, 64, 68
+Keita, Naby, CM, Guinea, Liverpool, 83, 68, 73, 78, 87, 64, 68
 Henderson, Jordan, CM, England, Liverpool, 82, 66, 70, 83, 75, 77, 78
 Wijnaldum, Georginio, CM, Netherlands, Liverpool, 82, 76, 72, 77, 83, 71, 73
 Lallana, Adam, CM, England, Liverpool, 81, 69, 73, 80, 82, 64, 71
 Milner, James, CM, England, Liverpool, 80, 63, 70, 82, 77, 75, 78
-Van Dijk, Virgil, CB; Netherlands, Liverpool, 88, 75, 61, 69, 72, 87, 86
-Robertson, Andrew, LB; Scotland, Liverpool, 83, 85, 60, 74, 77, 80, 76
+Van Dijk, Virgil, CB, Netherlands, Liverpool, 88, 75, 61, 69, 72, 87, 86
+Robertson, Andrew, LB, Scotland, Liverpool, 83, 85, 60, 74, 77, 80, 76
 Lovren, Dejan, CB, Croatia, Liverpool, 81, 55, 40, 59, 63, 71, 69
 Matip, Joel, CB, Cameroon, Liverpool, 81, 63, 46, 68, 66, 82, 77
 Alexander-Arnold, Trent, RB, England, Liverpool, 78, 80, 60, 75, 73, 73, 69
@@ -103,11 +103,11 @@ Bellerin, Hector, RB, Spain, Arsenal, 80, 93, 51, 68, 77, 75, 66
 Leno, Bernd, GK, Germany, Arsenal, 84, 84, 82, 73, 82, 46, 85
 Čech, Petr, GK, Czech Republic, Arsenal, 82, 78, 82, 70, 79, 35, 83
 *Manchester United
-Lukaku, Romelu, ST, Belgium, Manchester United,87, 84, 84, 76, 75, 35, 87
+Lukaku, Romelu, ST, Belgium, Manchester United, 87, 84, 84, 76, 75, 35, 87
 Sanchez, Alexis, LW, Chile, Manchester United, 87, 82, 83, 79, 89, 45, 77
 Martial, Anthony, LW, France, Manchester United, 84, 90, 83, 73, 87, 42, 73
 Rashford, Marcus, ST, England, Manchester United, 82, 93, 80, 74, 83, 42, 74
-Pogba, Paul, CM France, Manchester United, 88, 75, 79, 86, 85, 69, 87
+Pogba, Paul, CM, France, Manchester United, 88, 75, 79, 86, 85, 69, 87
 Matić, Nemanja, CDM, Serbia, Manchester United, 86, 56, 71, 79, 76, 83, 83
 Mata, Juan, RM, Spain, Manchester United, 83, 65, 76, 84, 85, 37, 50
 Fred, *, CM, Brazil, Manchester United, 82, 79, 74, 77, 82, 75, 71
@@ -115,7 +115,7 @@ Herrera, Ander, CM, Spain, Manchester United, 82, 71, 72, 79, 80, 78, 76
 Lingard, Jesse, CAM, England, Manchester United, 82, 81, 78, 76, 84, 56, 68
 Fellaini, Marouane, CM, Belgium, Manchester United, 79, 45, 72, 71, 72, 75, 86
 Bailly, Eric, CB, Ivory Coast, Manchester United, 82, 74, 42, 69, 66, 82, 82
-Valencia, Antonio, RB, Ecuador, Manchester United, 85, 67, 76, 80, 79, 79
+Valencia, Antonio, RB, Ecuador, Manchester United, 82, 85, 67, 76, 80, 79, 79
 Smalling, Chris, CB, England, Manchester United, 81, 68, 47, 55, 59, 81, 82
 Young, Ashley, LB, England, Manchester United, 80, 75, 68, 79, 78, 74, 70
 Rojo, Marcus, CB, Argentina, Manchester United, 80, 69, 60, 69, 66, 76, 78
