@@ -36,7 +36,7 @@ Van Dijk, Virgil, CB; Netherlands, Liverpool, 88, 75, 61, 69, 72, 87, 86
 Robertson, Andrew, LB; Scotland, Liverpool, 83, 85, 60, 74, 77, 80, 76
 Lovren, Dejan, CB, Croatia, Liverpool, 81, 55, 40, 59, 63, 71, 69
 Matip, Joel, CB, Cameroon, Liverpool, 81, 63, 46, 68, 66, 82, 77
-Alexander-Arnold, Trent, RB, Liverpool, 78, 80, 60, 75, 73, 73, 69
+Alexander-Arnold, Trent, RB, England, Liverpool, 78, 80, 60, 75, 73, 73, 69
 Alisson, *, GK, Brazil, Liverpool, 87, 84, 82, 87, 89, 54, 83
 Mignolet, Simon, GK, Belgium, Liverpool, 79, 80, 74, 64, 83, 50, 76
 *Chelsea
