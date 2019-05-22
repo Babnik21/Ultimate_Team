@@ -138,10 +138,10 @@ def obvesti_kdo_izbira(napotezi):       #Obvesti uporabnika, kdo izbira
         print('Nasprotnik je na potezi, da izbere kategorijo.')
         time.sleep(2)
 
-def zaključek_tt(user_p):               #Uporabniku sporoči razplet igre
-    if len(user_p) == 0:
+def zaključek_tt(user_p, ai_p):               #Uporabniku sporoči razplet igre
+    if len(user_p) == 0 and len(ai_p) != 1:
         print('Izgubili ste. Več sreče Prihodnjič!')
-    else:
+    elif len(ai_p) == 0 and len(user_p) != 0:
         print('Čestitke! Zmagali ste!')
     time.sleep(1)
 
@@ -170,7 +170,7 @@ def Top_Trumps():                       #Igra top trumps
             na_potezi = False
         else:
             print('Izenačeno! Oba obdržita svojega igralca.')
-    zaključek_tt(user_players)
+    zaključek_tt(user_players, ai_players)
 
 
 def ustreza_poizvedbi(keyword, item):   #preveri, ali igralec ustreza poizvedbi
@@ -316,10 +316,3 @@ def program():
         main_menu()
 
 program()
-
-
-
-
-
-
-

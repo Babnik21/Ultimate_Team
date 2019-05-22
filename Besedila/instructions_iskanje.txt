@@ -9,4 +9,4 @@ tistih, ki se z vašo poizvedbo popolnoma ujemajo. Bodite pozorni, na uporabo
 velikih začetnic, saj je brskalnik nanje občutljiv. Vsi podatki so shranjeni 
 v angleškem jeziku, in poizvedbe v drugih jezikih ne bodo uspešne. Za pomoč
 sta priložena besedilni dokument, kjer lahko najdete angleške prevode vseh 
-držav, ter obrazložitve kratic vseh pozicij. Najdete jih lahko v mapi 'pomoč'.s
+držav, ter obrazložitve kratic vseh pozicij. Najdete jih lahko v mapi 'pomoč'.
