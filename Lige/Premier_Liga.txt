@@ -49,7 +49,7 @@ Pedro, *, RW, Spain, Chelsea, 82, 76, 77, 77, 83, 43, 56
 Kante, Ngolo, CDM, France, Chelsea, 89, 80, 66, 77, 81, 87, 84
 Fabregas, Cesc, CM, Spain, Chelsea, 84, 55, 74, 88, 80, 60, 58
 Jorginho, *, CM, Italy, Chelsea, 84, 72, 64, 84, 82, 69, 71
-Kovačič, Mateo, CM, Croatia, Chelsea, 83, 79, 69, 82, 86, 69, 72
+Kovačić, Mateo, CM, Croatia, Chelsea, 83, 79, 69, 82, 86, 69, 72
 Barkley, Ross, CM, England, Chelsea, 79, 70, 72, 76, 81, 54, 73
 Loftus-Cheek, Ruben, CM, England, Chelsea, 77, 71, 62, 75, 79, 61, 78
 Azpilicueta, Cezar, CB, Spain, Chelsea, 86, 76, 55, 78, 74, 87, 77

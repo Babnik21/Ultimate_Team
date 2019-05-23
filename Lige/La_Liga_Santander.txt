@@ -1,0 +1,97 @@
+*Barcelona
+Messi, Lionel, CF, Argentina, Barcelona, 94, 88, 91, 88, 96, 32, 61
+Suarez, Luis, ST, Uruguay, Barcelona, 91, 80, 90, 79, 87, 52, 85
+Coutinho, Philippe, LW, Brazil, Barcelona, 88, 81, 81, 86, 91, 45, 64
+Dembele, Ousmane, RW, France, Barcelona, 84, 92, 78, 78, 88, 36, 57
+Malcom, *, RW, Brazil, Barcelona, 83, 84, 79, 81, 85, 27, 64
+Bousquets, Sergio, CDM, Spain, Barcelona, 89, 51, 62, 80, 81, 86, 80
+Rakitić, Ivan, CM, Croatia, Barcelona, 87, 62, 84, 87, 82, 72, 69
+Vidal, Arturo, CDM, Chile, Barcelona, 85, 57, 80, 79, 78, 83, 84
+Arthur, *, CM, Brazil, Barcelona, 82, 69, 73, 79, 82, 70, 69
+Rafinha, *, CAM, Brazil, Barcelona, 82, 70, 76, 79, 84, 69, 62
+Boateng, Kevin-Prince, CM, Ghana, Barcelona, 81, 66, 79, 78, 80, 70, 76
+Umtiti, Samuel, CB, France, Barcelona, 87, 72, 64, 71, 72, 88, 82
+Alba, Jordi, LB, Spain, Barcelona, 87, 93, 69, 79, 83, 79, 72
+Pique, Gerard, CB, Spain, Barcelona, 87, 55, 61, 69, 66, 87, 76
+Roberto, Sergi, RB, Spain, Barcelona, 84, 78, 63, 81, 77, 80, 71
+Lenglet, Clement, CB, France, Barcelona, 82, 73, 35, 59, 67, 83, 78
+Murillo, Jeison, CB, Colombia, Barcelona, 81, 76, 40, 59, 64, 80, 80
+Semedo, Nelson, RB, Portugal, Barcelona, 80, 92, 57, 67, 80, 73, 72
+Ter Stegen, Marc-Andre, GK, Germany, Barcelona, 89, 87, 85, 88, 90, 38, 85
+Cillessen, Jasper, GK, Netherlands, Barcelona, 81, 79, 83, 74, 77, 54, 81
+*Atletico Madrid
+Griezmann, Antoine, ST, France, Atletico Madrid, 89, 86, 86, 81, 88, 50, 70
+Costa, Diego, ST, Spain, Atletico Madrid, 85, 75, 83, 64, 76, 49, 87
+Morata, Alvaro, ST, Spain, Atletico Madrid, 83, 82, 79, 71, 79, 31, 71
+Kalinić, Nikola, ST, Croatia, Atletico Madrid, 79, 70, 76, 64, 74, 42, 73
+Saul, *, CM, Spain, Atletico Madrid, 85, 70, 77, 79, 82, 78, 76
+Koke, *, LM, Spain, Atletico Madrid, 85, 69, 75, 88, 82, 69, 78
+Lemar, Thomas, LM, France, Atletico Madrid, 83, 85, 76, 83, 85, 59, 67
+Rodri, *, CM, Spain, Atletico Madrid, 82, 68, 69, 75, 77, 76, 75
+Martins, Gelson, RM, Portugal, Atletico Madrid, 82, 94, 69, 75, 86, 47, 61
+Partey, Thomas, CDM, Ghana, Atletico Madrid, 82, 75, 67, 74, 77, 80, 82
+Vitolo, *, LM, Spain, Atletico Madrid, 81, 77, 76, 78, 81, 41, 76
+Correa, Angel, RM, Argentina, Atletico Madrid, 80, 80, 80, 71, 85, 54, 59
+Godin, Diego, CB, Uruguay, Atletico Madrid, 90, 68, 48, 65, 64, 89, 84
+Luis, Felipe, LB, Brazil, Atletico Madrid, 85, 75, 62, 78, 79, 81, 79
+Gimenez, Jose, CB, Uruguay, Atletico Madrid, 84, 68, 45, 51, 53, 86, 82
+Hernandez, Lucas, LB, France, Atletico Madrid, 83, 82, 48, 70, 71, 72, 80
+Savić, Stefan, CB, Montenegro, Atletico Madrid, 83, 58, 35, 54, 58, 84, 74
+Juanfran, *, RB, Spain, Atletico Madrid, 80, 81, 58, 74, 76, 76, 76
+Oblak, Jan, GK, Slovenia, Atletico Madrid, 90, 80, 92, 78, 89, 43, 88
+Adan, *, GK, Spain, Atletico Madrid, 83, 81, 84, 78, 83, 56, 84
+*Real Madrid
+Bale, Gareth, RW, Wales, Real Madrid, 88, 95, 88, 84, 85, 58, 76
+Benzema, Karim, ST, France, Real Madrid, 85, 76, 80, 78, 84, 32, 76
+Asensio, Marco, LW, Spain, Real Madrid, 85, 81, 84, 83, 85, 43, 60
+Vasquez, Lucas, RW, Spain, Real Madrid, 83, 81, 75, 82, 82, 46, 67
+Mariano, *, ST, Dominican Republic, Real Madrid, 80, 85, 81, 62, 74, 45, 82
+Junior, Vinicius, LW, Brazil, Real Madrid, 77, 93, 72, 64, 81, 29, 60
+Modrić, Luka, CM, Croatia, Real Madrid, 91, 76, 76, 90, 91, 70, 67
+Kroos, Toni, CM, Germany, Real Madrid, 90, 67, 82, 89, 82, 74, 69
+Isco, *, CAM; Spain, Real Madrid, 89, 72, 81, 85, 92, 61, 62
+Casemiro, *, CDM, Brazil, Real Madrid, 88, 62, 69, 75, 72, 87, 88
+Ceballos, Dani, CM, Spain, Real Madrid, 81, 70, 65, 78, 83, 68, 66
+Llorente, Marcos, CDM, Spain, Real Madrid, 79, 54, 48, 73, 70, 76, 71
+Ramos, Sergio, CB, Spain, Real Madrid, 91, 75, 63, 71, 72, 91, 84
+Marcelo, *, LB, Brazil, Real Madrid, 88, 82, 71, 83, 90, 81, 82
+Varane, Raphael, CB, France, Real Madrid, 85, 84, 45, 61, 65, 86, 60
+Carvajal, Daniel, RB, Spain, Real Madrid, 85, 83, 45, 76, 81, 82, 80
+Fernandez, Nacho, CB, Spain, Real Madrid, 83, 74, 37, 66, 65, 81, 79
+Odriozola, *, RB, Spain, Real Madrid, 80, 81, 53, 71, 73, 79, 68
+Courtois, Thibaut, GK, Belgium, Real Madrid, 90, 87, 91, 74, 88, 46, 87
+Navas, Keylor, GK, Costa Rica, Real Madrid, 87, 90, 81, 75, 90, 54, 82
+*Valencia
+Rodrigo, *, ST, Spain, Valencia, 84, 90, 81, 73, 82, 44, 71
+Guedes, Goncalo, LW, Portugal, Valencia, 82, 88, 79, 76, 82, 36, 68
+Batshuayi, Michy, ST, Belgium, Valencia, 81, 76, 81, 59, 78, 33, 72
+Gameiro, Kevin, ST, France, Valencia, 81, 85, 81, 75, 78, 43, 68
+Mina, Santi, ST, Spain, Valencia, 80, 79, 78, 68, 79, 51, 73
+Parejo, Daniel, CM, Spain, Valencia, 86, 47, 80, 88, 79, 71, 71
+Kondogbia, Geoffrey, CM, France, Valencia, 82, 73, 73, 76, 79, 83, 88
+Wass, Daniel, CM, Denmark, Valencia, 82, 75, 76, 82, 79, 72, 73
+Soler, Carlos, RM, Spain, Valencia, 80, 76, 74, 81, 79, 62, 65
+Coquelin, Francis, CDM, France, Valencia, 79, 71, 58, 68, 76, 78, 81
+Cheryshev, Denis, LM, Russia, Valencia, 77, 78, 78, 73, 77, 53, 66
+Paulista, Gabriel, CB, Brazil, Valencia, 82, 73, 49, 68, 66, 83, 80
+Garay, Ezequiel, CB, Argentina, Valencia, 82, 35, 63, 66, 65, 82, 79
+Gaya, *, LB, Spain, Valencia, 79, 87, 61, 76, 78, 72, 68
+Piccini, Cristiano, RB, Italy, Valencia, 75, 41, 66, 74, 76, 79
+Neto, *, GK, Brazil, Valencia, 84, 86, 84, 79, 82, 53, 78
+Jaume, *, GK, Spain, Valencia, 76, 74, 73, 73, 82, 58, 74
+*Getafe
+*Sevilla
+*Espanyol
+*Athletic Bilbao
+*Real Sociedad
+*Betis
+*Alaves
+*Eibar
+*Leganes
+*Villareal
+*Levante
+*Valladolid
+*Celta
+*Girona
+*Huesca
+*Rayo Vallecano
