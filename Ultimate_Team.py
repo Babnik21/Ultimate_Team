@@ -34,9 +34,23 @@ def intro():                            #Izpiše uvodno besedilo
         tekst = intro.read()
         print(tekst)
 
-#Dobimo seznam igralcev iz premier lige
+seznam_igralcev = []
+#Dobimo seznam igralcev iz angleške Premier Lige, španske La Lige in italijanske Serie A
 with open("Lige\Premier_Liga.txt", 'r', encoding = 'utf-8') as data:
-    seznam_igralcev = []
+    for vrstica in data:
+        if vrstica[0] == '*':
+            continue
+        seznamcek = vrstica.strip().split(', ')
+        seznam_igralcev.append(Kartica(seznamcek))
+
+with open("Lige\Serie_A.txt", 'r', encoding = 'utf-8') as data:
+    for vrstica in data:
+        if vrstica[0] == '*':
+            continue
+        seznamcek = vrstica.strip().split(', ')
+        seznam_igralcev.append(Kartica(seznamcek))
+
+with open("Lige\La_Liga_Santander.txt", 'r', encoding = 'utf-8') as data:
     for vrstica in data:
         if vrstica[0] == '*':
             continue

@@ -1,0 +1,87 @@
+*Juventus
+Ronaldo, Cristiano, ST, Portugal, Juventus, 94, 90, 93, 81, 90, 35, 79
+Mandžukić, Mario, ST, Croatia, Juventus, 84, 70, 78, 71, 75, 66, 85
+Kean, Moise, ST, Italy, Juventus, 72, 77, 70, 50, 73, 26, 67
+Dybala, Paolo, CAM, Argentina, Juventus, 89, 85, 85, 84, 91, 28, 66
+Costa, Douglas, LM, Brazil, Juventus, 86, 95, 75, 81, 91, 43, 65
+Pjanić, Miralem, CM, Bosnia & Herzegovina, Juventus, 86, 66, 70, 86, 86, 73, 69
+Kheidira, Sami, CM, Germany, Juventus, 85, 57, 76, 80, 78, 81, 83
+Matuidi, Blaise, CDM, France, Juventus, 85, 78, 68, 77, 79, 83, 83
+Cuadrado, Juan, RM, Colombia, Juventus, 84, 91, 74, 77, 87, 66, 69
+Bernardeschi, Federico, RM, Italy, Juventus, 82, 83, 75, 80, 85, 56, 64
+Can, Emre, CM, Germany, Juventus, 80, 71, 68, 77, 77, 80, 83
+Chielini, Giorgio, CB, Italy, Juventus, 90, 70, 46, 57, 60, 92, 84
+Bonucci, Leonardo, CB, Italy, Juventus, 86, 61, 58, 69, 71, 87, 80
+Benatia, Medhi, CB, Morocco, Juventus, 86, 70, 45, 54, 65, 87, 85
+Sandro, Alex, LB, Brazil, Juventus, 86, 85, 65, 77, 81, 82, 83
+Barzagli, Andrea, CB, Italy, Juventus, 84, 68, 34, 57, 65, 89, 72
+Cancelo, Joao, RB, Portugal, Juventus, 83, 89, 65, 78, 83, 78, 73
+Rugani, Daniele, CB, Italy, Juventus, 82, 62, 39, 53, 64, 85, 75
+Szczesny, Wojciech, GK, Poland, Juventus, 86, 86, 83, 73, 88, 52, 84
+Perin, Mattia, GK, Italy, Juventus, 84, 81, 85, 71, 90, 57, 79
+*Napoli
+Insigne, Lorenzo, LW, Italy, Napoli, 88, 90, 76, 84, 91, 36, 50
+Mertens, Dries, CF, Belgium, Napoli, 87, 89, 83, 80, 90, 34, 55
+Callejon, Jose, RW, Spain, Napoli, 84, 88, 78, 75, 83, 47, 65
+Milik, Arkadiusz, ST, Poland, Napoli, 82, 73, 85, 64, 76, 40, 76
+Verdi, Simone, RW, Italy, Napoli, 81, 87, 73, 81, 85, 48, 55
+Hamšik, Marek, CM, Slovakia, Napoli, 87, 70, 80, 84, 84, 72, 69
+Allan, *, CM, Brazil, Napoli, 84, 77, 68, 77, 83, 84, 82
+Fabian, *, CM, Spain, Napoli, 81, 68, 77, 76, 80, 74, 68
+Zielinski, Piotr, CM, Poland, Napoli, 80, 83, 70, 79, 82, 69, 59
+Koulibaly, Kalidou, CB, Senegal, Napoli, 88, 73, 26, 49, 60, 89, 87
+Albiol, Raul, CB, Spain, Napoli, 84, 53, 41, 61, 64, 86, 75
+Hysaj, Elseid, RB, Albania, Napoli, 81, 81, 51, 68, 76, 79, 76
+Ghoulam, Faouzi, LB, Algeria, Napoli, 81, 77, 64, 77, 78, 78, 76
+Rui, Mario, LB, Portugal, Napoli, 78, 84, 49, 72, 78, 72, 69
+Karnezis, Orestis, GK, Greece, Napoli, 79, 80, 78, 72, 81, 44, 77
+Ospina, David, GK, Colombia, Napoli, 78, 83, 70, 78, 84, 34, 75
+*Atalanta
+Gomez, Alejandro, CF, Argentina, Atalanta, 84, 90, 76, 81, 88, 39, 57
+Iličić, Josip, CF, Slovenia, Atalanta, 81, 69, 82, 80, 81, 43, 63
+Zapata, Duvan, ST, Colombia, Atalanta, 79, 73, 79, 52, 73, 37, 80
+Cornelius, Andreas, ST, Denmark, Atalanta, 75, 68, 73, 53, 67, 39, 81
+Rigoni, Emiliano, RM, Italy, Atalanta, 78, 90, 73, 74, 79, 46, 61
+Pašalić, Mario, CM, Croatia, Atalanta, 76, 63, 70, 73, 75, 67, 77
+De Roon, Marteen, CM, Netherlands, Atalanta, 76, 68, 65, 70, 70, 78, 80
+Freuler, Remo, CM, Switzerland, Atalanta, 76, 69, 67, 74, 73, 70, 67
+Masiello, Andrea, CB, Italy, Atalanta, 79, 56, 37, 57, 59, 81, 72
+Toloi, Rafael, CB, Brazil, Atalanta, 78, 67, 47, 58, 63, 80, 67
+Palomino, Jose, CB, Argentina, Atalanta, 76, 55, 32, 55, 58, 77, 76
+Berisha, Etrit, GK, Albania, Atalanta, 78, 79, 76, 67, 81, 28, 78
+Gollini, Pierluigi, GK, Italy, Atalanta, 70, 73, 59, 60, 76, 46, 70
+*Inter
+Icardi, Mauro, ST, Argentina, Inter, 87, 78, 85, 61, 79, 36, 72
+Politano, Matteo, LW, Italy, Inter, 80, 84, 75, 74, 82, 29, 50
+Martinez, Lautaro, ST, Argentina, Inter, 79, 83, 77, 60, 78, 37, 81
+Perišić, Ivan, LM, Croatia, Inter, 86, 86, 80, 80, 83, 62, 78
+Nainggolan, Radja, CM, Belgium, Inter, 85, 75, 79, 78, 82, 83, 83
+Politano, Matteo, RM, Italy, Inter, 82, 86, 78, 77, 84, 30, 52
+Mario, Joao, CM, Portugal, Inter, 81, 72, 69, 79, 82, 64, 69
+Valero, Borja, CAM, Spain, Inter, 81, 53, 69, 84, 84, 66, 64
+Candreva, Antonio, RM, Italy, Inter, 81, 78, 79, 78, 81, 61, 71
+Balde, Keita, RM, Senegal, Inter, 80, 92, 76, 72, 83, 29, 70
+Brozović, Marcelo, CDM, Croatia, Inter, 80, 70, 73, 80, 80, 74, 72
+Škriniar, Milan, CB, Slovakia, Inter, 86, 73, 41, 58, 62, 88, 84
+Miranda, *, CB, Brazil, Inter, 85, 68, 49, 60, 69, 88, 76
+De Vrij, Stefan, CB, Netherlands, Inter, 84, 68, 41, 60, 67, 86, 76
+Vrsaljko, Šime, RB, Croatia, Inter, 81, 81, 55, 74, 75, 78, 78
+Asamoah, Kwadwo, LB, Ghana, Inter, 79, 77, 68, 78, 82, 78, 77
+Handanović, Samir, GK, Slovenia, Inter, 88, 87, 86, 69, 89, 51, 89
+Padeli, Daniele, GK, Italy, Inter, 74, 74, 74, 63, 74, 49, 76
+*Milan
+*Roma
+*Torino
+*Lazio
+*Sampdoria
+*Sassuolo
+*Spal
+*Bologna
+*Cagliari
+*Parma
+*Fiorentina
+*Udinese
+*Empoli
+*Genoa
+*Frosinone
+*Chievo
