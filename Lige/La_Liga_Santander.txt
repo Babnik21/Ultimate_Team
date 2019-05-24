@@ -49,7 +49,7 @@ Mariano, *, ST, Dominican Republic, Real Madrid, 80, 85, 81, 62, 74, 45, 82
 Junior, Vinicius, LW, Brazil, Real Madrid, 77, 93, 72, 64, 81, 29, 60
 Modrić, Luka, CM, Croatia, Real Madrid, 91, 76, 76, 90, 91, 70, 67
 Kroos, Toni, CM, Germany, Real Madrid, 90, 67, 82, 89, 82, 74, 69
-Isco, *, CAM; Spain, Real Madrid, 89, 72, 81, 85, 92, 61, 62
+Isco, *, CAM, Spain, Real Madrid, 89, 72, 81, 85, 92, 61, 62
 Casemiro, *, CDM, Brazil, Real Madrid, 88, 62, 69, 75, 72, 87, 88
 Ceballos, Dani, CM, Spain, Real Madrid, 81, 70, 65, 78, 83, 68, 66
 Llorente, Marcos, CDM, Spain, Real Madrid, 79, 54, 48, 73, 70, 76, 71
@@ -76,7 +76,7 @@ Cheryshev, Denis, LM, Russia, Valencia, 77, 78, 78, 73, 77, 53, 66
 Paulista, Gabriel, CB, Brazil, Valencia, 82, 73, 49, 68, 66, 83, 80
 Garay, Ezequiel, CB, Argentina, Valencia, 82, 35, 63, 66, 65, 82, 79
 Gaya, *, LB, Spain, Valencia, 79, 87, 61, 76, 78, 72, 68
-Piccini, Cristiano, RB, Italy, Valencia, 75, 41, 66, 74, 76, 79
+Piccini, Cristiano, RB, Italy, Valencia, 78, 75, 41, 66, 74, 76, 79
 Neto, *, GK, Brazil, Valencia, 84, 86, 84, 79, 82, 53, 78
 Jaume, *, GK, Spain, Valencia, 76, 74, 73, 73, 82, 58, 74
 *Getafe
