@@ -1,0 +1,13 @@
+GK - Goalkeeper, vratar (Golman)
+RB - Right Back, desni bočni branilec (desni bek)
+CB - Centre Back, osrednji branilec (štopar)
+LB - Left Back, levi bočni branilec (levi bek)
+CDM - Central Defensive Midfielder, obrambni vezist
+CM - Central Midfielder, vezist
+CAM - Central Attacking Midfielder, napadalni vezist
+LM - Left Midfielder, levi vezist
+RM - Right Midfielder, desni vezist
+LW - Left Wing, levo krilo
+RW - Right Wing, desno krilo
+CF - Centre Forward, napadalec
+ST - Striker, napadalec (špica)
