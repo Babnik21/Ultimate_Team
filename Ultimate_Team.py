@@ -211,7 +211,7 @@ def isci_po_seznamu(poskus, kljuc, seznam):     #Funkcija vrne seznam igralcev, 
 def pridobi_kljuc_za_iskanje():         #Vrne ključ, po katerem bomo iskali igralce
     print('Izberite, po katerem podatku želite poiskati igralca:')
     time.sleep(0.5)
-    print('1) Priimek (Ime)')
+    print('1) Priimek (Naziv)')
     print('2) Pozicija')
     print('3) Državljanstvo')
     print('4) Klub')

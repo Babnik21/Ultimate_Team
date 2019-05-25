@@ -3,6 +3,7 @@ Albanija - Albania
 Alžirija - Algeria
 Argentina - Argentina
 Armenija - Armenia
+Avstrija - Austria
 Belgija - Belgium
 Brazilija - Brazilija
 Bosna in Hercegovina - Bosnia & Herzegovina
@@ -20,11 +21,13 @@ Grčija - Greece
 Gvineja - Guinea
 Hrvaška - Croatia
 Italija - Italy
+Japonska - Japan
 Južna Koreja - South Korea
 Kamerun - Cameroon
 Kenija - Kenya
 Kolumbija - Colombia
 Kostarika - Costa Rica
+Madžarska - Hungary
 Maroko - Morocco
 Nemčija - Germany
 Nigerija - Nigeria
@@ -41,5 +44,6 @@ Srbija - Serbia
 Španija - Spain
 Švedska - Sweden
 Švica - Switzerland
+Turčija - Turkey
 Urugvaj - Uruguay
 Wales - Wales
