@@ -57,6 +57,14 @@ with open("Lige\La_Liga_Santander.txt", 'r', encoding = 'utf-8') as data:
         seznamcek = vrstica.strip().split(', ')
         seznam_igralcev.append(Kartica(seznamcek))
 
+with open("Lige\Bundesliga.txt", 'r', encoding = 'utf-8') as data:
+    for vrstica in data:
+        if vrstica[0] == '*':
+            continue
+        seznamcek = vrstica.strip().split(', ')
+        seznam_igralcev.append(Kartica(seznamcek))
+
+
 def TT_dolzina():                       #Uporabnika vpraša po želeni dolžini igre, vrne število kartic
     print('Število kartic, ki jih dobi igralec, vpliva na trajanje igre.')
     print('Izberite dolžino igre:')
@@ -329,4 +337,7 @@ def program():
     while True:
         main_menu()
 
-program()
+for el in seznam_igralcev:
+    predstavi_igralca(el)
+    print(boljši_v_kategoriji(el, seznam_igralcev[0], 5))
+

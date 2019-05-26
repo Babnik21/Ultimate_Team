@@ -13,7 +13,7 @@ Goretzka, Leon, CM, Germany, Bayern Munich, 83, 83, 74, 80, 81, 77, 76
 Gnabry, Serge, LM, Germany, Bayern Munich, 82, 91, 81, 72, 85, 44, 67
 Sanches, Renato, CM, Portugal, Bayern Munich, 75, 77, 72, 69, 77, 70, 81
 Hummels, Mats, CB, Germany, Bayern Munich, 89, 65, 58, 76, 73, 90, 76
-Boateng, Jerome, CB Germany, Bayern Munich, 86, 73, 50, 72, 66, 85, 83
+Boateng, Jerome, CB, Germany, Bayern Munich, 86, 73, 50, 72, 66, 85, 83
 Kimmich, Joshua, RB, Germany, Bayern Munich, 86, 73, 68, 84, 82, 79, 74
 Alaba, David, LB, Austria, Bayern Munich, 85, 82, 73, 80, 80, 81, 75
 Sule, Niklas, CB, Germany, Bayern Munich, 84, 67, 41, 52, 50, 83, 82
@@ -56,6 +56,24 @@ Upamecano, Dayot, CB, France, RB Leipzig, 76, 79, 36, 59, 62, 74, 80
 Gulacsi, Peter, GK, Hungary, RB Leipzig, 79, 81, 79, 76, 80, 41, 76
 Mvogo, Yvon, GK, Switzerland, RB Leipzig, 75, 79, 73, 68, 78, 43, 71
 *Bayer Leverkusen
+Volland, Kevin, ST, Germany, Bayer Leverkusen, 81, 77, 81, 78, 79, 41, 83
+Alario, Lucas, ST, Argentina, Bayer Leverkusen, 79, 72, 77, 59, 75, 29, 76
+Bailey, Leon, LM, Jamaica, Bayer Leverkusen, 82, 93, 77, 75, 85, 33, 64
+Brandt, Julian, LM, Germany, Bayer Leverkusen, 82, 81, 77, 78, 84, 30, 64
+Havertz, Kai, CAM, Germany, Bayer Leverkusen, 81, 82, 71, 76, 81, 39, 60
+Bellarabi, Karim, RM, Germany, Bayer Leverkusen, 81, 91, 75, 73, 85, 34, 71
+Aranguiz, Charles, CM, Chile, Bayer Leverkusen, 81, 72, 71, 81, 78, 71, 72
+Baumgartlinger, Julian, CDM, Austria, Bayer Leverkusen, 78, 70, 49, 69, 69, 77, 82
+Kohr, Dominik, CM, Germany, Bayer Leverkusen, 77, 66, 57, 64, 72, 76, 80
+Tah, Jonathan, CB, Germany, Bayer Leverkusen, 83, 71, 27, 58, 59, 83, 81
+Bender, Lars, RB, Germany, Bayer Leverkusen, 82, 68, 64, 73, 73, 85, 79
+Bender, Sven, CB, Germany, Bayer Leverkusen, 81, 69, 51, 61, 61, 83, 79
+Wendell, *, LB, Brazil, Bayer Leverkusen, 78, 86, 49, 73, 78, 72, 72
+Weiser, Mitchell, RB, Germany, Bayer Leverkusen, 78, 84, 62, 75, 84, 72, 69
+Dragović, Aleksandar, CB, Austria, Bayer Leverkusen, 77, 66, 51, 60, 65, 77, 76
+Jedvaj, Tin, CB, Croatia, Bayer Leverkusen, 76, 69, 51, 58, 64, 75, 75
+Hradecky, Lukas, GK, Finland, Bayer Leverkusen, 84, 85, 79, 68, 88, 38, 82
+Ozcan, Ramazan, GK, Austria, Bayer Leverkusen, 75, 73, 71, 71, 75, 52, 76
 *Borussia Monchengladbach
 *Wolfsburg
 *Eintracht Frankfurt
