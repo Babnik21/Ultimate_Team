@@ -337,7 +337,5 @@ def program():
     while True:
         main_menu()
 
-for el in seznam_igralcev:
-    predstavi_igralca(el)
-    print(boljši_v_kategoriji(el, seznam_igralcev[0], 5))
 
+program()
